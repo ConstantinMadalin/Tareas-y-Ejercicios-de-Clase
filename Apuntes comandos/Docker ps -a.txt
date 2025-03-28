@@ -1,0 +1,5 @@
+Docker ps -a
+Docker stop xxxx
+Docker rm xxxx
+Docker volumen ls
+Docker volumen rm xxxx

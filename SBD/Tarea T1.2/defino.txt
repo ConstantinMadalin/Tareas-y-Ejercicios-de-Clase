@@ -1,0 +1,18 @@
+texto = """
+Moitos, moitos, moitos pero moitos datos.
+Big Data é unha base de datos mooooooiiiiiii grande
+Datos a grande escala que precisan de aplicaciones de software para a súa análise.
+O Big data é o conxunto de tecnoloxías creadas para  analizar grandes cantidades de datos
+Big Data é o conxunto de datos masivos que necesitan tecnoloxías avanzadas para ser almacenados, procesados e analizados.
+O big data é unha gran cantidade de datos que se poden tratar, analizar e debuxar para obter información deles.
+O big data pódese definir como a xestión e a análise de grandes cantidades de datos, o obxectivo é transformar os miles de datos que xeran os dispositivos conectados a internet, en información útil e fácil de manexar.
+O Big Data é un conxunto de tecnoloxías que nos permiten interactuar e traballar cunha gran cantidade de datos.
+O Big Data e un gran conxunto de datos que se poden analizar e examinar para sacar ideas e conclusións.
+Todo o proceso de recopilación, procesamento e tratado de grande cantidades de datos, sobre todo os que non sería viable que o fixeran persoas polo seu tamaño
+Big data é o termo que describe un gran volume de datos, que crece exponencialmente co paso do tempo. É un conxunto de datos tan grande e complexo que ningunha das ferramentas de datos tradicionais é capaz de almacenalo ou procesalo de forma eficiente.
+O Big Data e unha gran agrupación de datos, da que obtense información valiosa.
+Big data é o conxunto dunha enorme cantidade de datos complexos.
+Conjunto grandes y diversos de datos estructurados y no estructurados que precisan de aplicaciones informáticas de procesamiento de datos para agruparlos y visualizarlos.
+Big Data refírese a grandes, extensos e complexos conxuntos de datos que son difíciles de manexar con ferramentas tradicionais de procesamento de datos. Estes datos proveñen de diversas fontes. Big Data caracterízase polo seu volume, velocidade e variedade. A análise de Big Data permite descubrir patróns, tendencias e asociacións que poden ser útiles para a toma de decisións
+O Big Data son a combinación de todas as tecnoloxías que se levan a cabo para a xestión da información xerada por un usuario de un ámbito do internet determinado
+"""

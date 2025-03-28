@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hospital Documentation &#8212; Hospital Management 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Enfermera" href="enfermera.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="hospital-documentation">
+<h1>Hospital Documentation<a class="headerlink" href="#hospital-documentation" title="Link to this heading">¶</a></h1>
+<p>Bienvenido a la documentación del sistema de gestión de trabajadores de un hospital. Este sistema permite gestionar tanto a médicos como a enfermeras, almacenando información clave sobre ellos, como su nombre, fecha de nacimiento, especialidad (en el caso de los médicos), y área de trabajo (en el caso de las enfermeras), entre otros.</p>
+<p>Este sistema está compuesto por varias clases que definen a los trabajadores del hospital y gestionan diversas acciones como agregar, eliminar, y modificar trabajadores. A continuación se describe la estructura principal del sistema.</p>
+<section id="contenido">
+<h2>Contenido<a class="headerlink" href="#contenido" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p><cite>Trabajador</cite></p></li>
+<li><p><cite>Medico</cite></p></li>
+<li><p><cite>Enfermera</cite></p></li>
+<li><p><cite>Hospital</cite></p></li>
+</ol>
+</section>
+<section id="trabajador">
+<h2>trabajador<a class="headerlink" href="#trabajador" title="Link to this heading">¶</a></h2>
+<p>La clase <cite>Trabajador</cite> es la clase base para todos los trabajadores en el sistema. Define los atributos comunes a todos los trabajadores, como el <cite>NIF</cite>, <cite>nombre</cite>, <cite>fecha_nacimiento</cite>, <cite>sexo</cite> y, opcionalmente, el <cite>numero_colegiado</cite>.</p>
+<p>Atributos:
+- <cite>nif</cite>: El NIF del trabajador.
+- <cite>nombre</cite>: El nombre del trabajador.
+- <cite>fecha_nacimiento</cite>: La fecha de nacimiento del trabajador.
+- <cite>sexo</cite>: El sexo del trabajador.
+- <cite>numero_colegiado</cite>: El número de colegiado (solo para médicos).</p>
+<p>Métodos:
+- <cite>__init__(self, nif, nombre, fecha_nacimiento, sexo, numero_colegiado=None)</cite>: Constructor de la clase, que inicializa los atributos mencionados.</p>
+</section>
+<section id="medico">
+<h2>medico<a class="headerlink" href="#medico" title="Link to this heading">¶</a></h2>
+<p>La clase <cite>Medico</cite> hereda de <cite>Trabajador</cite> y añade atributos específicos para los médicos. Incluye la especialidad del médico, la fecha de inicio de trabajo y el número de colegiado.</p>
+<p>Atributos:
+- <cite>especialidad</cite>: La especialidad médica (por ejemplo, Cardiología).
+- <cite>fecha_inicio</cite>: La fecha en que el médico empezó a trabajar en el hospital.</p>
+<p>Métodos:
+- <cite>__init__(self, nif, nombre, fecha_nacimiento, sexo, especialidad, fecha_inicio, numero_colegiado)</cite>: Constructor que inicializa los atributos de la clase <cite>Medico</cite>.
+- <cite>calcular_anios_trabajados(self)</cite>: Calcula el número de años que el médico ha trabajado en el hospital.</p>
+</section>
+<section id="enfermera">
+<h2>enfermera<a class="headerlink" href="#enfermera" title="Link to this heading">¶</a></h2>
+<p>La clase <cite>Enfermera</cite> también hereda de <cite>Trabajador</cite>, pero agrega atributos específicos para las enfermeras, como el área en la que trabajan y el número de personas a su cargo.</p>
+<p>Atributos:
+- <cite>area</cite>: El área donde trabaja la enfermera (por ejemplo, Urgencias, Pediatría).
+- <cite>personas_a_cargo</cite>: El número de personas a cargo de la enfermera.</p>
+<p>Métodos:
+- <cite>__init__(self, nif, nombre, fecha_nacimiento, sexo, area, personas_a_cargo)</cite>: Constructor que inicializa los atributos de la clase <cite>Enfermera</cite>.
+- <cite>modificar_personas_a_cargo(self, cantidad)</cite>: Modifica el número de personas a cargo de la enfermera.
+- <cite>mostrar_info(self)</cite>: Muestra la información completa de la enfermera.</p>
+</section>
+<section id="hospital">
+<h2>Hospital<a class="headerlink" href="#hospital" title="Link to this heading">¶</a></h2>
+<p>La clase <cite>Hospital</cite> gestiona una lista de trabajadores, permitiendo agregar, eliminar, y modificar trabajadores. También permite mostrar la lista de trabajadores y detalles de un trabajador específico.</p>
+<p>Atributos:
+- <cite>trabajadores</cite>: Una lista que contiene todos los trabajadores del hospital.</p>
+<p>Métodos:
+- <cite>__init__(self)</cite>: Inicializa la lista vacía de trabajadores.
+- <cite>anadir_trabajador(self, trabajador)</cite>: Añade un trabajador a la lista.
+- <cite>borrar_trabajador(self, nif)</cite>: Borra un trabajador de la lista por su NIF.
+- <cite>mostrar_lista_trabajadores(self)</cite>: Muestra una lista de todos los trabajadores.
+- <cite>mostrar_detalle_trabajador(self, nif)</cite>: Muestra los detalles completos de un trabajador específico.
+- <cite>calcular_anios_medico(self, nif)</cite>: Muestra los años trabajados por un médico específico.
+- <cite>mostrar_personas_a_cargo(self, nif)</cite>: Muestra el número de personas a cargo de una enfermera.
+- <cite>modificar_personas_a_cargo(self, nif, cantidad)</cite>: Modifica el número de personas a cargo de una enfermera.
+- <cite>guardar_datos_csv(self, nombre_fichero)</cite>: Guarda los datos de los trabajadores en un archivo CSV.
+- <cite>cargar_datos_csv(self, nombre_fichero)</cite>: Carga los datos de los trabajadores desde un archivo CSV.</p>
+</section>
+<section id="uso-del-sistema">
+<h2>Uso del Sistema<a class="headerlink" href="#uso-del-sistema" title="Link to this heading">¶</a></h2>
+<p>El sistema se puede utilizar a través de la consola. A continuación se describen las acciones disponibles:</p>
+<ol class="arabic simple">
+<li><p><strong>Añadir trabajador</strong>: Permite añadir un nuevo trabajador (médico o enfermera) al hospital.</p></li>
+<li><p><strong>Borrar trabajador</strong>: Permite borrar un trabajador del hospital usando su NIF.</p></li>
+<li><p><strong>Mostrar lista de trabajadores</strong>: Muestra una lista con todos los trabajadores registrados.</p></li>
+<li><p><strong>Mostrar detalle de un trabajador</strong>: Muestra los detalles completos de un trabajador específico.</p></li>
+<li><p><strong>Mostrar número de años trabajados de un médico</strong>: Muestra el número de años que un médico ha trabajado en el hospital.</p></li>
+<li><p><strong>Mostrar número de personas a cargo de una enfermera</strong>: Muestra el número de personas a cargo de una enfermera.</p></li>
+<li><p><strong>Añadir personas a cargo de una enfermera</strong>: Permite añadir personas a cargo de una enfermera.</p></li>
+<li><p><strong>Reducir personas a cargo de una enfermera</strong>: Permite reducir el número de personas a cargo de una enfermera.</p></li>
+<li><p><strong>Guardar datos en un archivo CSV</strong>: Permite guardar todos los datos de los trabajadores en un archivo CSV.</p></li>
+<li><p><strong>Cargar datos desde un archivo CSV</strong>: Permite cargar los datos de los trabajadores desde un archivo CSV previamente guardado.</p></li>
+<li><p><strong>Salir</strong>: Sale del programa.</p></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso">
+<h2>Ejemplo de Uso<a class="headerlink" href="#ejemplo-de-uso" title="Link to this heading">¶</a></h2>
+<p><a href="#id1"><span class="problematic" id="id2">``</span></a><a href="#id3"><span class="problematic" id="id4">`</span></a>python
+from hospital.enfermera import Enfermera
+from hospital.medico import Medico
+from hospital.hospital import Hospital</p>
+<p># Crear una instancia de Hospital
+hospital = Hospital()</p>
+<p># Crear médicos y enfermeras
+medico = Medico(nif=”12345678A”, nombre=”Dr. Pérez”, fecha_nacimiento=”1980-05-15”, sexo=”Masculino”,</p>
+<blockquote>
+<div><p>especialidad=”Cardiología”, fecha_inicio=”2010-01-01”, numero_colegiado=”12345”)</p>
+</div></blockquote>
+<dl class="simple">
+<dt>enfermera = Enfermera(nif=”87654321B”, nombre=”Ana López”, fecha_nacimiento=”1985-02-20”, sexo=”Femenino”,</dt><dd><p>area=”Urgencias”, personas_a_cargo=5)</p>
+</dd>
+</dl>
+<p># Añadir al hospital
+hospital.anadir_trabajador(medico)
+hospital.anadir_trabajador(enfermera)</p>
+<p># Mostrar la lista de trabajadores
+hospital.mostrar_lista_trabajadores()</p>
+<p># Mostrar detalles de un trabajador
+hospital.mostrar_detalle_trabajador(“12345678A”)</p>
+<p># Guardar datos en CSV
+hospital.guardar_datos_csv(“trabajadores.csv”)</p>
+<p># Cargar datos desde CSV
+hospital.cargar_datos_csv(“trabajadores.csv”)</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Hospital Management</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contenidos</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="trabajador.html">trabajador</a></li>
+<li class="toctree-l1"><a class="reference internal" href="medico.html">Medico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enfermera.html">Enfermera</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hospital Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#contenido">Contenido</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#trabajador">trabajador</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#medico">medico</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enfermera">enfermera</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hospital">Hospital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uso-del-sistema">Uso del Sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ejemplo-de-uso">Ejemplo de Uso</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="enfermera.html" title="previous chapter">Enfermera</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/hospital.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

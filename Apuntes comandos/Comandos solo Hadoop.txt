@@ -1,0 +1,16 @@
+Utiliza el sistema de fichero HDFS
+
+hdfs dfs -ls
+hdfs dfs -put
+hdfs dfs -rm
+hdfs dfs -get
+hdfs dfs -cp
+hdfs dfs -mv
+
+
+home:
+
+normal: /home/xunta/edu/a088
+
+HDFS: /user/xuedua088
+

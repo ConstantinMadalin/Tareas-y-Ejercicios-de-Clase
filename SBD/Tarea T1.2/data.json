@@ -1,0 +1,12 @@
+{
+    "La Voz de Galicia": {"url": "https://www.lavozdegalicia.es", "tag": ""},
+    "El País": {"url": "https://www.elpais.com", "tag": ""},
+    "El Mundo": {"url": "https://www.elmundo.es", "tag": ""},
+    "20 Minutos": {"url": "https://www.20minutos.es", "tag": ""},
+    "Público": {"url": "https://www.publico.es", "tag": ""},
+    "La Razón": {"url": "https://www.larazon.es", "tag": ""},
+    "ABC": {"url": "https://www.abc.es", "tag": ""},
+    "La Vanguardia": {"url": "https://www.lavanguardia.com", "tag": ""},
+    "El Periódico": {"url": "https://www.elperiodico.com", "tag": ""},
+    "El Mundo Today": {"url": "https://www.elmundotoday.com", "tag": ""}
+}

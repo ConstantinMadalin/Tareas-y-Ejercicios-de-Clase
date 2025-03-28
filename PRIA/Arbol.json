@@ -1,0 +1,65 @@
+{
+  "pregunta": "¿Las hojas tienen forma de aguja (aciculares)?",
+  "si": {
+    "pregunta": "¿Las acículas son largas?",
+    "si": {
+      "pregunta": "¿Las acículas están reunidas en grupos (verticiladas)?",
+      "si": "PINO",
+      "no": "CEDRO"
+    },
+    "no": "ABETO"
+  },
+  "no": {
+    "pregunta": "¿Las hojas son pequeñas, escamosas y colocadas como tejas en un tejado (imbricadas)?",
+    "si": "CIPRÉS",
+    "no": {
+      "pregunta": "¿Las hojas son compuestas?",
+      "si": {
+        "pregunta": "¿Las hojas son palmado-compuestas?",
+        "si": "CASTAÑO DE INDIAS",
+        "no": {
+          "pregunta": "¿El fruto es una legumbre?",
+          "si": "FALSA ACACIA",
+          "no": {
+            "pregunta": "¿El fruto tiene un ala?",
+            "si": "FRESNO",
+            "no": "(No clasificado)"
+          }
+        }
+      },
+      "no": {
+        "pregunta": "¿Las hojas son duras?",
+        "si": {
+          "pregunta": "¿El fruto es una bellota?",
+          "si": "ENCINA",
+          "no": "MADROÑO"
+        },
+        "no": {
+          "pregunta": "¿Las hojas son penninervias?",
+          "si": {
+            "pregunta": "¿La hoja es 2 veces más larga que ancha?",
+            "si": "SAUCE LLORÓN",
+            "no": {
+              "pregunta": "¿El borde inferior es asimétrico, aserrado y ovalado?",
+              "si": "OLMO",
+              "no": {
+                "pregunta": "¿El borde inferior es simétrico, aserrado muy suave y sus semillas presentan largos pelos algodonosos?",
+                "si": "CHOPO",
+                "no": "(No clasificado)"
+              }
+            }
+          },
+          "no": {
+            "pregunta": "¿El fruto tiene dos alas que forman un ángulo?",
+            "si": "ARCE",
+            "no": {
+              "pregunta": "¿El fruto es globoso en grupos de 2 o 3?",
+              "si": "PLÁTANO DE SOMBRA",
+              "no": "(No clasificado)"
+            }
+          }
+        }
+      }
+    }
+  }
+}
