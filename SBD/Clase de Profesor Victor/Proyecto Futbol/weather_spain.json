@@ -1,0 +1,34 @@
+[
+  {
+    "City": "Madrid",
+    "Temperature": 21.0
+  },
+  {
+    "City": "Barcelona",
+    "Temperature": 19.0
+  },
+  {
+    "City": "Valencia",
+    "Temperature": 22.0
+  },
+  {
+    "City": "Sevilla",
+    "Temperature": 27.0
+  },
+  {
+    "City": "Bilbao",
+    "Temperature": 17.0
+  },
+  {
+    "City": "Zaragoza",
+    "Temperature": 22.0
+  },
+  {
+    "City": "Málaga",
+    "Temperature": 20.0
+  },
+  {
+    "City": "A Coruña",
+    "Temperature": 17.0
+  }
+]
