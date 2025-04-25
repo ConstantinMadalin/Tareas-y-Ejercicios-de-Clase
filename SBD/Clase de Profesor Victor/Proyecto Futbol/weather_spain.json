@@ -1,7 +1,7 @@
 [
   {
     "City": "Madrid",
-    "Temperature": 21.0
+    "Temperature": 24.0
   },
   {
     "City": "Barcelona",
@@ -17,15 +17,15 @@
   },
   {
     "City": "Bilbao",
-    "Temperature": 17.0
+    "Temperature": 23.0
   },
   {
     "City": "Zaragoza",
-    "Temperature": 22.0
+    "Temperature": 26.0
   },
   {
     "City": "Málaga",
-    "Temperature": 20.0
+    "Temperature": 25.0
   },
   {
     "City": "A Coruña",
