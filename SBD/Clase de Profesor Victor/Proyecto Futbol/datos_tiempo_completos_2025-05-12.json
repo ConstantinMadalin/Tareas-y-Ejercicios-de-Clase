@@ -1,0 +1,242 @@
+[
+  {
+    "ciudad": "Madrid",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:38.891292",
+    "temperatura": "18°",
+    "condicion": "Parcialmente nuboso"
+  },
+  {
+    "ciudad": "Barcelona",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:40.467144",
+    "temperatura": "18°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Valencia",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:43.049751",
+    "temperatura": "21°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Sevilla",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:44.816117",
+    "temperatura": "23°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Zaragoza",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:46.425713",
+    "temperatura": "22°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Málaga",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:48.531481",
+    "temperatura": "25°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Murcia",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:51.311819",
+    "temperatura": "25°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Palma",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:52.605706",
+    "temperatura": "21°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Las Palmas",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:54.447091",
+    "temperatura": "22°",
+    "condicion": "Parcialmente nuboso"
+  },
+  {
+    "ciudad": "Bilbao",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:57.370987",
+    "temperatura": "16°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Alicante",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:16:59.632287",
+    "temperatura": "20°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Córdoba",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:01.489162",
+    "temperatura": "22°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Valladolid",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:02.924013",
+    "temperatura": "14°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Vigo",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:05.790129",
+    "temperatura": "15°",
+    "condicion": "Lluvia moderada"
+  },
+  {
+    "ciudad": "Gijón",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:07.355238",
+    "temperatura": "14°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Hospitalet de Llobregat",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:09.740358",
+    "temperatura": "19°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "A Coruña",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:11.271821",
+    "temperatura": "15°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Vitoria-Gasteiz",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:14.015005",
+    "temperatura": "18°",
+    "condicion": "Parcialmente nuboso"
+  },
+  {
+    "ciudad": "Granada",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:16.403054",
+    "temperatura": "21°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Elche",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:18.066144",
+    "temperatura": "21°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Oviedo",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:20.747369",
+    "temperatura": "13°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Santa Cruz de Tenerife",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:22.949602",
+    "temperatura": "22°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Badalona",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:25.391670",
+    "temperatura": "17°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Cartagena",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:28.506927",
+    "temperatura": "22°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Terrassa",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:31.144513",
+    "temperatura": "17°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Jerez de la Frontera",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:33.091772",
+    "temperatura": "20°",
+    "condicion": "Soleado"
+  },
+  {
+    "ciudad": "Sabadell",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:35.435529",
+    "temperatura": "18°",
+    "condicion": "Lluvia débil"
+  },
+  {
+    "ciudad": "Móstoles",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:37.558401",
+    "temperatura": "18°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Alcalá de Henares",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:40.274135",
+    "temperatura": "19°",
+    "condicion": "Nubes y claros"
+  },
+  {
+    "ciudad": "Pamplona",
+    "tipo": "actual",
+    "fecha": "2025-05-12",
+    "timestamp": "2025-05-12T18:17:43.470671",
+    "temperatura": "16°",
+    "condicion": "Lluvia débil"
+  }
+]

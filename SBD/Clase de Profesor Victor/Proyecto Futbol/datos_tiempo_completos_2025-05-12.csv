@@ -1,0 +1,31 @@
+﻿ciudad,tipo,fecha,timestamp,temperatura,condicion
+A Coruña,actual,2025-12-05,2025-05-12T18:17:11.271821,15°,Nubes y claros
+Alcalá de Henares,actual,2025-12-05,2025-05-12T18:17:40.274135,19°,Nubes y claros
+Alicante,actual,2025-12-05,2025-05-12T18:16:59.632287,20°,Nubes y claros
+Badalona,actual,2025-12-05,2025-05-12T18:17:25.391670,17°,Nubes y claros
+Barcelona,actual,2025-12-05,2025-05-12T18:16:40.467144,18°,Nubes y claros
+Bilbao,actual,2025-12-05,2025-05-12T18:16:57.370987,16°,Lluvia débil
+Cartagena,actual,2025-12-05,2025-05-12T18:17:28.506927,22°,Nubes y claros
+Córdoba,actual,2025-12-05,2025-05-12T18:17:01.489162,22°,Nubes y claros
+Elche,actual,2025-12-05,2025-05-12T18:17:18.066144,21°,Nubes y claros
+Gijón,actual,2025-12-05,2025-05-12T18:17:07.355238,14°,Lluvia débil
+Granada,actual,2025-12-05,2025-05-12T18:17:16.403054,21°,Nubes y claros
+Hospitalet de Llobregat,actual,2025-12-05,2025-05-12T18:17:09.740358,19°,Nubes y claros
+Jerez de la Frontera,actual,2025-12-05,2025-05-12T18:17:33.091772,20°,Soleado
+Las Palmas,actual,2025-12-05,2025-05-12T18:16:54.447091,22°,Parcialmente nuboso
+Madrid,actual,2025-12-05,2025-05-12T18:16:38.891292,18°,Parcialmente nuboso
+Murcia,actual,2025-12-05,2025-05-12T18:16:51.311819,25°,Nubes y claros
+Málaga,actual,2025-12-05,2025-05-12T18:16:48.531481,25°,Nubes y claros
+Móstoles,actual,2025-12-05,2025-05-12T18:17:37.558401,18°,Nubes y claros
+Oviedo,actual,2025-12-05,2025-05-12T18:17:20.747369,13°,Lluvia débil
+Palma,actual,2025-12-05,2025-05-12T18:16:52.605706,21°,Nubes y claros
+Pamplona,actual,2025-12-05,2025-05-12T18:17:43.470671,16°,Lluvia débil
+Sabadell,actual,2025-12-05,2025-05-12T18:17:35.435529,18°,Lluvia débil
+Santa Cruz de Tenerife,actual,2025-12-05,2025-05-12T18:17:22.949602,22°,Lluvia débil
+Sevilla,actual,2025-12-05,2025-05-12T18:16:44.816117,23°,Nubes y claros
+Terrassa,actual,2025-12-05,2025-05-12T18:17:31.144513,17°,Lluvia débil
+Valencia,actual,2025-12-05,2025-05-12T18:16:43.049751,21°,Nubes y claros
+Valladolid,actual,2025-12-05,2025-05-12T18:17:02.924013,14°,Lluvia débil
+Vigo,actual,2025-12-05,2025-05-12T18:17:05.790129,15°,Lluvia moderada
+Vitoria-Gasteiz,actual,2025-12-05,2025-05-12T18:17:14.015005,18°,Parcialmente nuboso
+Zaragoza,actual,2025-12-05,2025-05-12T18:16:46.425713,22°,Nubes y claros
