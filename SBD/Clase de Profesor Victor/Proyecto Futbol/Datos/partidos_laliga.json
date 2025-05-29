@@ -1,0 +1,52 @@
+[
+    {
+        "Hora":"23.05. 21:00",
+        "Local":"Betis",
+        "Visitante":"Valencia"
+    },
+    {
+        "Hora":"24.05. 16:15",
+        "Local":"Real Madrid",
+        "Visitante":"Real Sociedad"
+    },
+    {
+        "Hora":"24.05. 18:30",
+        "Local":"Espanyol",
+        "Visitante":"Las Palmas"
+    },
+    {
+        "Hora":"24.05. 18:30",
+        "Local":"Leganes",
+        "Visitante":"Valladolid"
+    },
+    {
+        "Hora":"24.05. 21:00",
+        "Local":"Alaves",
+        "Visitante":"Osasuna"
+    },
+    {
+        "Hora":"24.05. 21:00",
+        "Local":"Getafe",
+        "Visitante":"Celta Vigo"
+    },
+    {
+        "Hora":"24.05. 21:00",
+        "Local":"Rayo Vallecano",
+        "Visitante":"Mallorca"
+    },
+    {
+        "Hora":"25.05. 14:00",
+        "Local":"Girona",
+        "Visitante":"Atl. Madrid"
+    },
+    {
+        "Hora":"25.05. 16:15",
+        "Local":"Villarreal",
+        "Visitante":"Sevilla"
+    },
+    {
+        "Hora":"25.05. 21:00",
+        "Local":"Ath Bilbao",
+        "Visitante":"Barcelona"
+    }
+]
